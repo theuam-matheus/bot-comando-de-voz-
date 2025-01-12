@@ -2,7 +2,7 @@ import speech_recognition as sr
 import webbrowser
 
 def ouvir_comando():
-    """Captura um comando de voz do usuário."""
+
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
         print("Ajustando para o ruído ambiente... Aguarde.")
@@ -24,13 +24,13 @@ def ouvir_comando():
             return None
 
 def pesquisar_na_web(consulta):
-    """Realiza uma pesquisa na web com a consulta dada."""
+ 
     url = f"https://www.google.com/search?q={consulta.replace(' ', '+')}"
     webbrowser.open(url)
     print(f"Pesquisando: {consulta}")
 
 def main():
-    """Função principal para executar o programa."""
+
     print("Bem-vindo ao assistente de pesquisa por voz!")
     while True:
         comando = ouvir_comando()
