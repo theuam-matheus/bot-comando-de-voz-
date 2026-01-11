@@ -1,4 +1,7 @@
-﻿# Bot para assitencia (jarvis 2.0)
+﻿# Bot para assitencia (Luna)
 
  Estou tentando criar um bot para automação que faça de tudo no computador
- assim como o Jarvis do homem de ferro e o primeiro passo foi a pesquisa por comando de voz, podendo agr abrir páginas do google e interagir com elas
+ Primeiro passo para Luna foi a pesquisa por comando de voz, podendo agr abrir páginas do google e interagir com ela
+
+ Segundo passo foi fazer ela falar interagir com o usuário com base nos comandos e uma janela com as informações se ela esta ativa ou desativada e principalmente informação de como ativar
+
